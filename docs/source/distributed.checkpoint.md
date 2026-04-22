@@ -192,7 +192,6 @@ can handle all of torch.distributed constructs such as FSDP, DDP, ShardedTensor 
 
 ```{eval-rst}
 .. autofunction:: torch.distributed.checkpoint.default_planner.create_default_global_load_plan
-  :members:
 
 ```
 
