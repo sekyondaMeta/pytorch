@@ -481,7 +481,6 @@ coverage_ignore_functions = [
     "average_parameters_or_parameter_groups",
     "get_params_to_average",
     # torch.distributed.checkpoint.default_planner
-    "create_default_global_load_plan",
     "create_default_global_save_plan",
     "create_default_local_load_plan",
     "create_default_local_save_plan",
@@ -1505,7 +1504,6 @@ coverage_ignore_classes = [
     # torch.distributed.checkpoint.api
     "CheckpointException",
     # torch.distributed.checkpoint.default_planner
-    "DefaultLoadPlanner",
     "DefaultSavePlanner",
     # torch.distributed.checkpoint.filesystem
     "FileSystemReader",
